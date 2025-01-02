@@ -9,7 +9,9 @@ export default function App() {
    <Weather />
     <footer>
       This project was coded by Paulina Pogwizd and open-sourced on {""}
-     <a href="https://github.com/Paupog/react-weatha" target="_blank" rel="noreferrer">
+     <a href="https://github.com/Paupog/react-weatha" 
+     target="_blank" 
+     rel="noreferrer">
      Github </a>
     </footer>
     </div>
