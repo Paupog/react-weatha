@@ -19,6 +19,7 @@ export default function Weather(props){
             description: response.data.condition.description,
             wind: response.data.wind.speed,
             city: response.data.city, 
+            perceivedTemperature: Math.round(response.data.temperature.feels_like),
         });
     }
 
@@ -49,7 +50,7 @@ export default function Weather(props){
                 <input 
                 type="search" 
                 placeholder="Enter a city.." 
-                className="form-control" 
+                className="formStyle form-control" 
                 autoFocus 
                 onChange= {handleCityChange}
                 />
@@ -58,7 +59,7 @@ export default function Weather(props){
                 <input 
                 type="submit" 
                 value="Search" 
-                className="btn btn-primary w-100"/>
+                className="button"/>
                 </div>
                 </div>
             </form>

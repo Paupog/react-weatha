@@ -1,32 +1,60 @@
 .Weather {
-    font-family: arial, sans-serif;
-    border: 1px solid #dadde1;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #bcc4c3;
     padding: 16px;
     border-radius: 4px;
-    color: rgb(135, 135, 135);
+    color:  rgb(33, 33, 33);
+    background: linear-gradient(to bottom, #166993, #ffffff); /* Jasnoniebieski do białego */
+
   }
 
 .Weather form {
     margin-bottom: 20px;
+    
 
 }
+.Weather .formStyle {
+    max-width: 600px;
+    border-radius: 25px;
+}
+
+.Weather .button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 16px;
+    border: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
 .Weather h1 {
-    font-size: 24px;
-    font-weight: 100;
-    margin: 20px 0 0 0;
-    line-height: 29px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -10px;
+    color: #002244; /* Głęboki granat */
+
+    
 }
 
 .Weather ul {
     margin: 0;
     padding: 0;
+    color: #555555;
 }
 
 .Weather li {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 100;
-    line-height: 19px;
+    line-height: 14px;
     list-style: none;
+    
 }
 
 .Weather canvas {
@@ -38,8 +66,8 @@
 
 .Weather .temperature {
     font-weight: bold;
-    color: rgb(33, 33, 33);
-    font-size: 64px;
+    color: #002244; /* Głęboki granat */
+    font-size: 75px;
     line-height: 64px;
     
     font-weight: 400;
@@ -53,5 +81,5 @@
     position: relative;
     line-height: 1;
     top: -34px;
-    margin-left: 10px;
+    margin-left: 5px;
   }
