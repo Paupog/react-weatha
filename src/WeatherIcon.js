@@ -3,7 +3,6 @@ import ReactAnimatedWeather from 'react-animated-weather';
 
 
 export default function WeatherIcon(props){
-    console.log("WeatherIcon received code:", props.code);
 
     const codeMapping = {
         "clear-sky-day": "CLEAR_DAY",
