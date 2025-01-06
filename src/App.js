@@ -8,11 +8,10 @@ export default function App() {
       <div className='container'>
    <Weather defaultCity="New York"/>
     <footer>
-      This project was coded by Paulina Pogwizd and open-sourced on {""}
-     <a href="https://github.com/Paupog/react-weatha" 
+      This project was coded by  <a href="https://github.com/Paupog/react-weatha" 
      target="_blank" 
-     rel="noreferrer">
-     Github </a>
+     rel="noreferrer">Paulina Pogwizd</a> and open-sourced on {""}
+   Github 
     </footer>
     </div>
     </div>
